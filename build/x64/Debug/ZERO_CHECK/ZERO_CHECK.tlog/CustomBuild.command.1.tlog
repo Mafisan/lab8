@@ -1,0 +1,10 @@
+^C:\USERS\USER\PROJECTS\GITLABS\LAB8_MESHVIEWER\BUILD\CMAKEFILES\BC8FA4C898B449F92CF41CAEA9D985CD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/Projects/GitLabs/lab8_meshviewer -BC:/Users/User/Projects/GitLabs/lab8_meshviewer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Projects/GitLabs/lab8_meshviewer/build/MeshViewerLab8.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

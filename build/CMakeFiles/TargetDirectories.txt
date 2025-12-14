@@ -1,0 +1,3 @@
+C:/Users/User/Projects/GitLabs/lab8_meshviewer/build/CMakeFiles/MeshViewer.dir
+C:/Users/User/Projects/GitLabs/lab8_meshviewer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Projects/GitLabs/lab8_meshviewer/build/CMakeFiles/ZERO_CHECK.dir
